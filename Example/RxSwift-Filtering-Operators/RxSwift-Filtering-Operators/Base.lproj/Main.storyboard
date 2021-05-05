@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8eV-PX-J6w">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Filtering Operators-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RxSwift_Filtering_Operators" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8lF-AC-gvk">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9z-Kw-CH3">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="70.5"/>
+                                        <state key="normal" title="1. ignoreElements"/>
+                                        <connections>
+                                            <action selector="ignoreElementsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P9g-t2-5uB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LYa-ml-Ndy">
+                                        <rect key="frame" x="0.0" y="70.5" width="414" height="70"/>
+                                        <state key="normal" title="2. elementAt"/>
+                                        <connections>
+                                            <action selector="elementAtTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="igk-sc-6K1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DC4-2x-1sV">
+                                        <rect key="frame" x="0.0" y="140.5" width="414" height="70.5"/>
+                                        <state key="normal" title="3. filter"/>
+                                        <connections>
+                                            <action selector="filterTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TTv-tz-aVs"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GEt-fa-tST">
+                                        <rect key="frame" x="0.0" y="211" width="414" height="70.5"/>
+                                        <state key="normal" title="4. skip"/>
+                                        <connections>
+                                            <action selector="skipTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bbI-2J-w1V"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ca-Pc-2Y1">
+                                        <rect key="frame" x="0.0" y="281.5" width="414" height="70.5"/>
+                                        <state key="normal" title="5. skipWhile"/>
+                                        <connections>
+                                            <action selector="skipWhileTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j87-r7-YHX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6av-fj-8Hl">
+                                        <rect key="frame" x="0.0" y="352" width="414" height="70"/>
+                                        <state key="normal" title="6. skipUntil"/>
+                                        <connections>
+                                            <action selector="skipUntilTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5TP-EQ-zCM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdR-tc-Z7b">
+                                        <rect key="frame" x="0.0" y="422" width="414" height="70.5"/>
+                                        <state key="normal" title="7. take"/>
+                                        <connections>
+                                            <action selector="takeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x72-0n-2ca"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wBz-AU-Dcz">
+                                        <rect key="frame" x="0.0" y="492.5" width="414" height="70.5"/>
+                                        <state key="normal" title="8. takeWhile"/>
+                                        <connections>
+                                            <action selector="takeWhileTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jIl-yc-2mf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OU4-mL-tmq">
+                                        <rect key="frame" x="0.0" y="563" width="414" height="70.5"/>
+                                        <state key="normal" title="9. enumerated"/>
+                                        <connections>
+                                            <action selector="enumeratedTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jgo-9x-wo4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUv-re-wqi">
+                                        <rect key="frame" x="0.0" y="633.5" width="414" height="70"/>
+                                        <state key="normal" title="10. takeUntil"/>
+                                        <connections>
+                                            <action selector="takeUntilTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NrL-Tb-D8n"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8N-q2-HO1">
+                                        <rect key="frame" x="0.0" y="703.5" width="414" height="70.5"/>
+                                        <state key="normal" title="11 .distinctUntilChanged"/>
+                                        <connections>
+                                            <action selector="distinctUntilChangedTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="udI-ns-0YJ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8lF-AC-gvk" secondAttribute="trailing" id="9Ky-Qz-8RP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8lF-AC-gvk" secondAttribute="bottom" id="9O2-xz-1oh"/>
+                            <constraint firstItem="8lF-AC-gvk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="9sd-Ha-Iz5"/>
+                            <constraint firstItem="8lF-AC-gvk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JXy-ON-Vgu"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Filtering Operators" id="wVO-Qo-9zs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1035" y="126"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nTU-hz-e47">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8eV-PX-J6w" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wYB-el-OzO">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FSy-1e-1ka"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OiF-3b-pMh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="125.89285714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
