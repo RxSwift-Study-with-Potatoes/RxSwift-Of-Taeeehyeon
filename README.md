@@ -1,4 +1,4 @@
-# RxSwift-Operators
+# RxSwift-Playground
 🕹  김태현의 RxSwift 정리공간
 
 ## 주제별 정리
