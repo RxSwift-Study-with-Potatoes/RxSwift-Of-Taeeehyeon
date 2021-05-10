@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB993950C1883053561B3882 /* Pods_RxLoginValidation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CADE04F92743CDA0773DC2 /* Pods_RxLoginValidation.framework */; };
+		BDFD1A9E2645479400B94939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD1A9D2645479400B94939 /* AppDelegate.swift */; };
+		BDFD1AA02645479400B94939 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD1A9F2645479400B94939 /* SceneDelegate.swift */; };
+		BDFD1AA72645479500B94939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFD1AA62645479500B94939 /* Assets.xcassets */; };
+		BDFD1AAA2645479500B94939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFD1AA82645479500B94939 /* LaunchScreen.storyboard */; };
+		BDFD1AB3264547F400B94939 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD1AB2264547F400B94939 /* LoginViewController.swift */; };
+		BDFD1AB52645484100B94939 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD1AB42645484100B94939 /* Coordinator.swift */; };
+		BDFD1AB826454CE200B94939 /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD1AB726454CE200B94939 /* UIViewController+Keyboard.swift */; };
+		BDFD1ABB26454EDD00B94939 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD1ABA26454EDD00B94939 /* LoginViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03CADE04F92743CDA0773DC2 /* Pods_RxLoginValidation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxLoginValidation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC4E50CD3C045D6D7347E1B /* Pods-RxLoginValidation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxLoginValidation.debug.xcconfig"; path = "Target Support Files/Pods-RxLoginValidation/Pods-RxLoginValidation.debug.xcconfig"; sourceTree = "<group>"; };
+		BDFD1A9A2645479400B94939 /* RxLoginValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxLoginValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFD1A9D2645479400B94939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDFD1A9F2645479400B94939 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDFD1AA62645479500B94939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDFD1AA92645479500B94939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDFD1AAB2645479500B94939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDFD1AB2264547F400B94939 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BDFD1AB42645484100B94939 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		BDFD1AB726454CE200B94939 /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
+		BDFD1ABA26454EDD00B94939 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		DED70B5BC5B185A61593F2CE /* Pods-RxLoginValidation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxLoginValidation.release.xcconfig"; path = "Target Support Files/Pods-RxLoginValidation/Pods-RxLoginValidation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDFD1A972645479400B94939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB993950C1883053561B3882 /* Pods_RxLoginValidation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2B06F9714BAEEF3C1F5A002 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DC4E50CD3C045D6D7347E1B /* Pods-RxLoginValidation.debug.xcconfig */,
+				DED70B5BC5B185A61593F2CE /* Pods-RxLoginValidation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA20DECD14AF855FC05FE651 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03CADE04F92743CDA0773DC2 /* Pods_RxLoginValidation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDFD1A912645479400B94939 = {
+			isa = PBXGroup;
+			children = (
+				BDFD1A9C2645479400B94939 /* RxLoginValidation */,
+				BDFD1A9B2645479400B94939 /* Products */,
+				B2B06F9714BAEEF3C1F5A002 /* Pods */,
+				BA20DECD14AF855FC05FE651 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDFD1A9B2645479400B94939 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDFD1A9A2645479400B94939 /* RxLoginValidation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDFD1A9C2645479400B94939 /* RxLoginValidation */ = {
+			isa = PBXGroup;
+			children = (
+				BDFD1AB926454ED200B94939 /* ViewModels */,
+				BDFD1AB626454CCD00B94939 /* Extensions */,
+				BDFD1AB1264547E600B94939 /* Controllers */,
+				BDFD1A9D2645479400B94939 /* AppDelegate.swift */,
+				BDFD1A9F2645479400B94939 /* SceneDelegate.swift */,
+				BDFD1AA62645479500B94939 /* Assets.xcassets */,
+				BDFD1AA82645479500B94939 /* LaunchScreen.storyboard */,
+				BDFD1AAB2645479500B94939 /* Info.plist */,
+				BDFD1AB42645484100B94939 /* Coordinator.swift */,
+			);
+			path = RxLoginValidation;
+			sourceTree = "<group>";
+		};
+		BDFD1AB1264547E600B94939 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDFD1AB2264547F400B94939 /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BDFD1AB626454CCD00B94939 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BDFD1AB726454CE200B94939 /* UIViewController+Keyboard.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BDFD1AB926454ED200B94939 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BDFD1ABA26454EDD00B94939 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDFD1A992645479400B94939 /* RxLoginValidation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFD1AAE2645479500B94939 /* Build configuration list for PBXNativeTarget "RxLoginValidation" */;
+			buildPhases = (
+				25083D91A2E39D3C72468B82 /* [CP] Check Pods Manifest.lock */,
+				BDFD1A962645479400B94939 /* Sources */,
+				BDFD1A972645479400B94939 /* Frameworks */,
+				BDFD1A982645479400B94939 /* Resources */,
+				D72103B18BE0D35546CDD87D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxLoginValidation;
+			productName = RxLoginValidation;
+			productReference = BDFD1A9A2645479400B94939 /* RxLoginValidation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDFD1A922645479400B94939 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BDFD1A992645479400B94939 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = BDFD1A952645479400B94939 /* Build configuration list for PBXProject "RxLoginValidation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDFD1A912645479400B94939;
+			productRefGroup = BDFD1A9B2645479400B94939 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDFD1A992645479400B94939 /* RxLoginValidation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDFD1A982645479400B94939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFD1AAA2645479500B94939 /* LaunchScreen.storyboard in Resources */,
+				BDFD1AA72645479500B94939 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25083D91A2E39D3C72468B82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxLoginValidation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D72103B18BE0D35546CDD87D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxLoginValidation/Pods-RxLoginValidation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxLoginValidation/Pods-RxLoginValidation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxLoginValidation/Pods-RxLoginValidation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDFD1A962645479400B94939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFD1AB826454CE200B94939 /* UIViewController+Keyboard.swift in Sources */,
+				BDFD1AB52645484100B94939 /* Coordinator.swift in Sources */,
+				BDFD1ABB26454EDD00B94939 /* LoginViewModel.swift in Sources */,
+				BDFD1AB3264547F400B94939 /* LoginViewController.swift in Sources */,
+				BDFD1A9E2645479400B94939 /* AppDelegate.swift in Sources */,
+				BDFD1AA02645479400B94939 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDFD1AA82645479500B94939 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFD1AA92645479500B94939 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDFD1AAC2645479500B94939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDFD1AAD2645479500B94939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDFD1AAF2645479500B94939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC4E50CD3C045D6D7347E1B /* Pods-RxLoginValidation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W895YM7ZMH;
+				INFOPLIST_FILE = RxLoginValidation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.taekki.ios.RxLoginValidation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BDFD1AB02645479500B94939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED70B5BC5B185A61593F2CE /* Pods-RxLoginValidation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W895YM7ZMH;
+				INFOPLIST_FILE = RxLoginValidation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.taekki.ios.RxLoginValidation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDFD1A952645479400B94939 /* Build configuration list for PBXProject "RxLoginValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFD1AAC2645479500B94939 /* Debug */,
+				BDFD1AAD2645479500B94939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFD1AAE2645479500B94939 /* Build configuration list for PBXNativeTarget "RxLoginValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFD1AAF2645479500B94939 /* Debug */,
+				BDFD1AB02645479500B94939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDFD1A922645479400B94939 /* Project object */;
+}
