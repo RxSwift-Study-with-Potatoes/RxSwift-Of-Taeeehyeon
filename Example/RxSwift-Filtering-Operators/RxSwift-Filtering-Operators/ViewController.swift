@@ -152,7 +152,7 @@ class ViewController: UIViewController {
             .take(while: { index, value in
                 value % 2 == 0 && index < 3
             })
-//            .map { $0.element }
+            .map { $0.element }
             .subscribe(onNext: {
                 print($0)
             })
